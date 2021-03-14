@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - EnemyMover
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -55,10 +56,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 598}
+      Script: {instanceID: 600}
     - Class: 114
       Script: {instanceID: 11734}
     - Class: 114
@@ -66,15 +71,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 13282}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 13946}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 14394}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 15028}
+      Script: {instanceID: 14396}
     - Class: 114
-      Script: {instanceID: 19100}
+      Script: {instanceID: 15030}
+    - Class: 114
+      Script: {instanceID: 15082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -338,6 +345,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -356,7 +369,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: bf3a18c09a69a7c4d28384326ad04c0c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -584,6 +597,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyMover
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -594,13 +613,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Escuela/UCF/2021/DIG3480/Tutorial 2/Tutorial 2 Build/Tutorial 2.exe
+  playerPath: E:/Escuela/UCF/2021/DIG3480/Tutorial 2/Challenge 2 Build/Tutorial 2.exe
