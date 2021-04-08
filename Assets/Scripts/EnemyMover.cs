@@ -19,7 +19,7 @@ public class EnemyMover : MonoBehaviour
         journeyLength = Vector2.Distance(startMarker.position, endMarker.position);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float distCovered = (Time.time - startTime) * speed;
 
